@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
+ul#navBar a {
+    color: #3d3e3e;
+    font-family: 'Inter', sans-serif;
+}
+div#Sourch {
+    margin-top: 29%;
+    position: relative;
+}
+a.nav-link:hover {
+    background-color: #8182850a;
+}
+body{
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+}
+#preLoad{
+    background:#000 url(preloadgif.gif) no-repeat center center;
+    height: 100vh;
+    background-size: 30%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+#source::after {
+    background: #DAEDFB;
+    position: absolute;
+    content: '';
+    width: 100px;
+    top: 53px;
+    left: 37%;
+    height: 3px;
+    border-radius: 10px;
+}
+#Scard {
+    background: #daedfb;
+     box-shadow: 3px 2px 13px -10px;
+     transition: 0.2s ease-in-out;
+     cursor: pointer;
+}
+.year {
+    color: #898a8b;
+}
+.year:hover {
+    color: #898aa8;
+}
+#Scard:hover {
+    box-shadow: 3px 2px 19px -10px;
+    transform: scale(1.01);
+
+}
+.card-title h4 {
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+}
+

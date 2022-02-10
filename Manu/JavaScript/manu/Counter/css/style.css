@@ -1,0 +1,11 @@
+div#counter {
+    width: 10%;
+    height: 90px;
+}
+div#containter {
+    /* padding: 6%; */
+    margin-top: 16%;
+}
+div#counter {
+    padding-top: 15px;
+}
